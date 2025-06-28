@@ -20,9 +20,26 @@
         $v = true;
         $v = 'Wesley';
         var_dump($v);
-
+        
         $n = 3e2;
         echo '<br>O valor é '. $n .'<br>';
+        var_dump($n);
+        
+        $n = (integer) 3e2;
+        echo '<br>O valor é '. $n .'<br>';
+        var_dump($n);
+
+        $v = (float) '950';
+        var_dump($v);
+
+        $single = true;
+        var_dump($single);
+        print '<br>O valor é '. $single .'<br>';
+
+        echo '<br>';
+        $a = [6, 2.5, 'Maria', 3, 5];
+        // echo 'O array é '. $a;
+        var_dump($a);
 
     ?>
 </body>
