@@ -10,6 +10,8 @@
         $name = 'Wesley';
         $lastName = 'Anjos';
         echo "Seu nome e sobrenome é $name $lastName \u{1F596}<br>";
+
+        echo 'Hoje é '. date('d/m/Y') .'<br>';
     ?>
 </body>
 </html>
