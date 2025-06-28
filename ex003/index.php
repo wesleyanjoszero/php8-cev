@@ -38,9 +38,15 @@
 
         echo '<br>';
         $a = [6, 2.5, 'Maria', 3, 5];
-        // echo 'O array é '. $a;
         var_dump($a);
 
+        class People {
+            private string $name;
+        }
+
+        $p = new People;
+        echo '<br>';
+        var_dump($p);
     ?>
 </body>
 </html>
